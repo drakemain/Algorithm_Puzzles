@@ -11,10 +11,12 @@ var singleNumber = function(nums) {
     } else {
       numCounter[nums[i]]++;
     }
+    console.log('.');
   }
 
   for (var j in numCounter) {
     if (numCounter[j] === 1) {return j;}
+    console.log(',');
   }
 };
 
