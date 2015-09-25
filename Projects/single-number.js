@@ -9,7 +9,6 @@ var singleNumber = function(nums) {
     } else {
       numCounter[nums[i]]++;
     }
-    console.log('.');
   }
 
   for (var j in numCounter) {
