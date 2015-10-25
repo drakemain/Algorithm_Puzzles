@@ -8,7 +8,7 @@ var missingNumber = function(nums) {
     indexSum += Number(i) + 1;
     valueSum += nums[i];
 
-    console.log(indexSum + " " + valueSum);
+    //console.log(indexSum + " " + valueSum);
   }
   return indexSum - valueSum;
 };
